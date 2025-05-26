@@ -1,10 +1,10 @@
 # Breggie Muyera - Portfolio
 
-[![Live Demo](https://img.shields.io/badge/Visit%20Website-breggiemuyera.me-00e5a0?style=for-the-badge&logo=google-chrome&logoColor=white)](https://breggiemuyera.me)
+[![Live Demo](https://img.shields.io/badge/Visit%20Website-my--portfolio--9l8.pages.dev-00e5a0?style=for-the-badge&logo=google-chrome&logoColor=white)](https://my-portfolio-9l8.pages.dev)
 
 A professional portfolio website showcasing projects, skills, and expertise in AI and web development. Built with modern web technologies and security best practices, optimized for performance and search engines.
 
-🌐 **Live at**: [https://breggiemuyera.me](https://breggiemuyera.me)
+🌐 **Live at**: [https://my-portfolio-9l8.pages.dev/](https://my-portfolio-9l8.pages.dev)
 
 ## 🚀 Features
 
@@ -83,7 +83,7 @@ A professional portfolio website showcasing projects, skills, and expertise in A
 ## 📁 File Structure
 
 ```
-breggiemuyera.me/
+my-portfolio-9l8.pages.dev/
 ├── index.html                 # Main HTML file
 ├── _headers                   # Security headers for Cloudflare
 ├── _redirects                 # URL redirects and rewrites
@@ -125,14 +125,14 @@ This site is deployed on Cloudflare Pages. The deployment is automated with ever
 1. Push your code to the `main` branch
 2. Cloudflare Pages automatically builds and deploys the site
 3. The site is available at:
-   - Primary: [https://breggiemuyera.me](https://breggiemuyera.me)
+   - Primary: [https://my-portfolio-9l8.pages.dev/](https://my-portfolio-9l8.pages.dev/)
    - Cloudflare URL: [https://my-portfolio.pages.dev](https://my-portfolio.pages.dev)
 
 ### Custom Domain Setup
 
 1. In Cloudflare Pages, go to your project settings
 2. Navigate to "Custom domains"
-3. Add your domain: `breggiemuyera.me`
+3. Your site will be available at: `my-portfolio-9l8.pages.dev`
 4. Update DNS records as instructed by Cloudflare
 
 ## 🔒 Security Features
@@ -263,7 +263,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 📬 Contact
 
 - **Email**: [breg254@gmail.com](mailto:breg254@gmail.com)
-- **Website**: [breggiemuyera.me](https://breggiemuyera.me)
+- **Website**: [my-portfolio-9l8.pages.dev](https://my-portfolio-9l8.pages.dev/)
 - **GitHub**: [@breg254](https://github.com/breg254)
 
 ---

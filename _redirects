@@ -1,9 +1,9 @@
 /* /index.html 200
 
 # Redirect all traffic to HTTPS and primary domain
-http://breggiemuyera.me/*  https://breggiemuyera.me/:splat  301
-http://www.breggiemuyera.me/*  https://breggiemuyera.me/:splat  301
-https://www.breggiemuyera.me/*  https://breggiemuyera.me/:splat  301
+http://breggiemuyera.me/*  https://my-portfolio-9l8.pages.dev/:splat  301
+http://www.breggiemuyera.me/*  https://my-portfolio-9l8.pages.dev/:splat  301
+https://www.breggiemuyera.me/*  https://my-portfolio-9l8.pages.dev/:splat  301
 
 # Redirect old paths (if any)
 /old-path  /new-path  301
