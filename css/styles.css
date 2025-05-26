@@ -563,15 +563,8 @@ section {
   .about-highlights {
     grid-template-columns: 1fr;
   }
-  
-  .about-text h3 {
-    text-align: center;
-  }
-  
-  .about-text p {
-    text-align: center;
-  }
 }
+
 .about-content {
   display: flex;
   gap: var(--space-2xl);
@@ -596,6 +589,11 @@ section {
 .about-text h3 {
   margin-bottom: var(--space-md);
   color: var(--text-color);
+  text-align: left;
+}
+
+.about-text p {
+  text-align: left;
 }
 
 .about-highlights {
@@ -870,6 +868,24 @@ section {
 }
 
 @media screen and (max-width: 768px) {
+  /* Center all section titles for mobile */
+  .section-header,
+  .section-header h2,
+  .about-text h3,
+  .education-content h3,
+  .certification-content h3,
+  .project-info h3,
+  .timeline-content h3,
+  .use-case-card h3,
+  .cert-info h4,
+  .timeline-content h4,
+  .project-card h3,
+  .cert-card h4 {
+    text-align: center !important;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   .education-card {
     flex-direction: column;
     text-align: center;
@@ -1498,13 +1514,13 @@ footer {
 @media screen and (max-width: 992px) {
   #hero .container {
     flex-direction: column;
-    text-align: center;
+    text-align: left;
     gap: var(--space-xl);
   }
   
   .hero-content .description {
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 0;
+    margin-right: 0;
   }
   
   .cta-buttons {
@@ -1521,6 +1537,7 @@ footer {
   
   .about-content {
     flex-direction: column;
+    text-align: left;
   }
   
   .contact-content {
@@ -1601,16 +1618,16 @@ footer {
     min-width: 140px;
   }
   .hero-content {
-    text-align: center;
+    text-align: left;
     padding: var(--space-3xl) 0;
-    margin: 0 auto;
+    margin: 0;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
   }
 
   h1, h2 {
-    text-align: center;
+    text-align: left;
   }
 
   h1 {
@@ -1814,9 +1831,10 @@ footer {
 
 .video-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: var(--space-xl);
   margin-top: var(--space-xl);
+  justify-content: center;
 }
 
 .video-card {
@@ -1877,20 +1895,32 @@ footer {
 }
 
 /* Responsive adjustments */
-@media screen and (max-width: 992px) {
-  .video-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1199px) {
   .video-grid {
     grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-    gap: var(--space-lg);
   }
 }
 
 @media screen and (max-width: 768px) {
+  .video-grid {
+    grid-template-columns: 1fr;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    gap: var(--space-lg);
+  }
+  /* Center section titles for mobile */
+  .section-header,
+  .section-header h2,
+  .about-text h3,
+  .education-content h3,
+  .certification-content h3,
+  .project-info h3,
+  .timeline-content h3,
+  .use-case-card h3,
+  .cert-info h4 {
+    text-align: center !important;
+  }
   .section-subtitle {
     font-size: var(--text-md);
     padding: 0 var(--space-md);
