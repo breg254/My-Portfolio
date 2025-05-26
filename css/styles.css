@@ -1741,6 +1741,16 @@ footer {
 }
 
 /* Video Grid Styles */
+#use-cases {
+  background-color: var(--secondary-color);
+  padding: var(--space-3xl) 0;
+}
+
+#use-cases .video-group {
+  margin-bottom: var(--space-3xl);
+  width: 100%;
+}
+
 #use-cases .video-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
@@ -1814,16 +1824,6 @@ footer {
   border-radius: var(--radius-sm);
 }
 
-#use-cases {
-  background-color: var(--secondary-color);
-  padding: var(--space-3xl) 0;
-}
-
-#use-cases .video-group {
-  margin-bottom: var(--space-3xl);
-  width: 100%;
-}
-
 /* Responsive adjustments for video grid */
 @media screen and (max-width: 1199px) {
   #use-cases .video-grid {
@@ -1865,7 +1865,10 @@ footer {
   .project-info h3,
   .timeline-content h3,
   .use-case-card h3,
-  .cert-info h4 {
+  .cert-info h4,
+  .timeline-content h4,
+  .project-card h3,
+  .cert-card h4 {
     text-align: center !important;
   }
   .section-subtitle {
